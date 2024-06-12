@@ -1,0 +1,58 @@
+export const FAKE_USERS : any = [
+    {
+        id: 1,
+        username: "user1",
+        email: "user1@gmail.com",
+        firstName: "thibaut",
+        lastName: "roland",
+    },
+    {
+        id: 2,
+        username: "user2",
+        email: "user2@gmail.com",
+        firstName: "Thomas",
+        lastName: "roland",
+    },
+    {
+        id: 3,
+        username: "user3",
+        email: "user3@gmail.com",
+        firstName: "Arthur",
+        lastName: "Beckerich",
+    },
+    {
+        id: 4,
+        username: "user4",
+        email: "user4@gmail.com",
+        firstName: "Adrien",
+        lastName: "Thery",
+    },
+    {
+        id: 5,
+        username: "user5",
+        email: "user5@gmail.com",
+        firstName: "Augustin",
+        lastName: "Lecherf",
+    },
+    {
+        id: 6,
+        username: "user6",
+        email: "user6@gmail.com",
+        firstName: "Clément",
+        lastName: "Buret",
+    },
+    {
+        id: 7,
+        username: "user7",
+        email: "user7@gmail.com",
+        firstName: "Baptiste",
+        lastName: "Poillon",
+    },
+    {
+        id: 8,
+        username: "user8",
+        email: "user8@gmail.com",
+        firstName: "Cyprien",
+        lastName: "Lehembre",
+    },
+]
