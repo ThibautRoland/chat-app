@@ -2,9 +2,9 @@ import { Module } from '@nestjs/common';
 import { UsersModule } from './users/users.module';
 import { AuthModule } from './auth/auth.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { SeedService } from './seed/seed/seed.service';
 import { SeedService } from './seed/service/seed.service';
 import entities from './typeorm';
+import { UsersService } from './users/services/users.service';
 
 @Module({
   imports: [UsersModule, AuthModule, TypeOrmModule.forRoot({
@@ -18,6 +18,6 @@ import entities from './typeorm';
     synchronize: true,
   })],
   controllers: [],
-  providers: [SeedService],
+  providers: [SeedService, UsersService],
 })
 export class AppModule {}
